@@ -25,10 +25,11 @@ Admin	admin	123
 
 🖼️ Screenshots
 ### 🔑 Login Page
-![Login Screenshot](./public/screenshots/login.png)
+![Login](https://raw.githubusercontent.com/lightningMcQueen-95/Major_Project/frontend/frontend/my-app/public/Screenshots/login.png)
 
 ### 📊 Dashboard
-![Dashboard Screenshot](./public/screenshots/Dashboard.png)
+![Dashboard](https://raw.githubusercontent.com/lightningMcQueen-95/Major_Project/frontend/frontend/my-app/public/Screenshots/dashboard.png)
+
 
 🛠️ Installation & Setup
 1. Clone the Repo
