@@ -28,7 +28,7 @@ Admin	admin	123
 ![Login](https://raw.githubusercontent.com/lightningMcQueen-95/Major_Project/frontend/frontend/my-app/public/Screenshots/login.png)
 
 ### 📊 Dashboard
-![Dashboard](https://raw.githubusercontent.com/lightningMcQueen-95/Major_Project/frontend/frontend/my-app/public/Screenshots/dashboard.png)
+![Dashboard](https://raw.githubusercontent.com/lightningMcQueen-95/Major_Project/frontend/frontend/my-app/public/Screenshots/Dashboard.png)
 
 
 🛠️ Installation & Setup
