@@ -81,3 +81,13 @@ Currently using Tailwind CSS v3 (because v4 is not yet supported by CRA).
 If you want to use Tailwind v4, migrate project to Vite or Next.js.
 
 All requests are currently stored in React state (no backend yet).
+
+Dependencies
+
+react-router-dom
+
+tailwindcss (v3)
+
+postcss
+
+autoprefixer
