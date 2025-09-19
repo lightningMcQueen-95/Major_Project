@@ -24,9 +24,11 @@ Warden	warden	123
 Admin	admin	123
 
 🖼️ Screenshots
-homepage.PNG
+### 🔑 Login Page
+![Login Screenshot](./public/screenshots/login.png)
 
-📊 Dashboard
+### 📊 Dashboard
+![Dashboard Screenshot](./public/screenshots/Dashboard.png)
 
 🛠️ Installation & Setup
 1. Clone the Repo
