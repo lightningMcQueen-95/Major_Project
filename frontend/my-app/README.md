@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+Hostel Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A web-based Hostel Management System built with React + Tailwind CSS.
+This project allows Students, Wardens, and Admins to manage hostel requests like room transfers, outpasses, complaints, and more.
 
-## Available Scripts
+🚀 Features
 
-In the project directory, you can run:
+Login System (Student / Warden / Admin)
 
-### `npm start`
+Room Allotment & Transfer
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Outpass Management (with approval flow)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Complaint Management
 
-### `npm test`
+Notification System (students get request status updates)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Role-based dashboards (Student → My Requests, Warden/Admin → Manage Requests)
 
-### `npm run build`
+👥 Users & Demo Credentials
+Role	Username	Password
+Student	student	123
+Warden	warden	123
+Admin	admin	123
+🖼️ Screenshots
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+📊 Dashboard
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🛠️ Installation & Setup
+1. Clone the Repo
+git clone https://github.com/<your-repo-name>.git
+cd <your-repo-name>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Install Dependencies
+npm install
 
-### `npm run eject`
+3. Run the Development Server
+npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Now open http://localhost:3000
+ in your browser 🎉
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+⚡ Tech Stack
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Frontend: React (CRA)
 
-## Learn More
+Styling: Tailwind CSS v3
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Icons: lucide-react
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+📂 Folder Structure
+my-app/
+├── src/
+│   ├── components/
+│   │   ├── Header.js
+│   │   ├── Login.js
+│   │   ├── OutpassTracking.js
+│   │   ├── RoomManagement.js
+│   │   └── ...other components
+│   ├── App.js
+│   ├── index.js
+│   ├── index.css
+│   └── ...
+├── public/
+│   └── screenshots/
+│       ├── login.png
+│       └── dashboard.png
+├── package.json
+└── README.md
 
-### Code Splitting
+🔧 Notes for Developers
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Currently using Tailwind CSS v3 (because v4 is not yet supported by CRA).
 
-### Analyzing the Bundle Size
+If you want to use Tailwind v4, migrate project to Vite or Next.js.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+All requests are currently stored in React state (no backend yet).
